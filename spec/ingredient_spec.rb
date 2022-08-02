@@ -17,4 +17,7 @@ RSpec.describe Ingredient do
     expect(ingredient1.unit).to eq ('oz')
   end
 
+  it 'should inform the caleries' do
+    expect(ingredient1.calories).to eq 50
+  end
 end
