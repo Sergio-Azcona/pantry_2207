@@ -23,6 +23,7 @@ RSpec.describe Pantry do
     pantry.restock(ingredient1, 10)
     pantry.restock(ingredient2, 7)
     # require 'pry';binding.pry
+
     expect(pantry.stock_check(ingredient2)).to eq 7    
     expect(pantry.stock_check(ingredient1)).to eq 15
 
