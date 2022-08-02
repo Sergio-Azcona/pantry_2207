@@ -6,12 +6,4 @@ class Ingredient
     @unit = details[:unit]
     @calories = details[:calories]
   end
-
-    # def name
-    #   @details['name'] => 'name'
-    # end
-
-
-
-
 end
